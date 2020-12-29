@@ -1,6 +1,19 @@
-# TesteEsig
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+
+# Crud Frontend Angular
+
+# Objetivo
+
+Projeto de frontend utlizando a linguagem de programação [TypeScript] (https://www.typescriptlang.org/), framework [Angular] (https://angular.io/) e bilbioteca de componentes [PrimeNg](https://www.primefaces.org/primeng/).
+
+# Primeiros Passos: configurando o projeto para desenvolvimento
+
+Esta sessão especifica os passos necessários para que o desenvolvedor possa executar o projeto em seu ambiente
+de desenvolvimento.
+
+- Instalar o Node última versão estável;
+- Instalavr o Angular última versão estável;
+- Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
 
