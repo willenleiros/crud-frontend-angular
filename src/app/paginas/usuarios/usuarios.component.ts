@@ -83,7 +83,6 @@ export class UsuariosComponent implements OnInit {
               this.messageService.add({severity:'success', summary: 'Successful', detail: 'Usuário apagado', life: 3000});
             })
             .catch(error => {
-                //this.error.handle(error);
                 console.log(error);
             });
           }
@@ -96,7 +95,6 @@ export class UsuariosComponent implements OnInit {
   }
   
   salvarUsuario() {
-      console.log(this.formulario.value);
       if(!this.editando){
         this.usuarioService.salvar(this.formulario.value).then(data => {
           this.listarTodos();
@@ -105,7 +103,6 @@ export class UsuariosComponent implements OnInit {
             detail: 'Usuário salvo', life: 3000});
         })
         .catch(error => {
-            //this.error.handle(error);
             console.log(error);
         });
       }
@@ -117,7 +114,6 @@ export class UsuariosComponent implements OnInit {
             detail: 'Usuário atualizado', life: 3000});
         })
         .catch(error => {
-            //this.error.handle(error);
             console.log(error);
         });
       }
@@ -129,7 +125,6 @@ export class UsuariosComponent implements OnInit {
       this.usuarios = data;
     })
     .catch(error => {
-        //this.error.handle(error);
         console.log(error);
     });
 
