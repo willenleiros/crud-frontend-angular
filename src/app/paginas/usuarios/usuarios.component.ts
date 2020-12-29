@@ -54,7 +54,7 @@ export class UsuariosComponent implements OnInit {
           accept: () => {
               this.usuarios = this.usuarios.filter(val => !this.selectedUsuarios.includes(val));
               this.selectedUsuarios = [];
-              this.messageService.add({severity:'success', summary: 'Successful', detail: 'Products Deleted', life: 3000});
+              this.messageService.add({severity:'success', summary: 'Atenção', detail: 'Usuários deletados', life: 3000});
           }
       });
   }
@@ -80,7 +80,7 @@ export class UsuariosComponent implements OnInit {
               this.listarTodos();
               this.fecharDialog();
               this.usuario = {};
-              this.messageService.add({severity:'success', summary: 'Successful', detail: 'Usuário apagado', life: 3000});
+              this.messageService.add({severity:'success', summary: 'Atenção', detail: 'Usuário apagado', life: 3000});
             })
             .catch(error => {
                 console.log(error);
@@ -99,7 +99,7 @@ export class UsuariosComponent implements OnInit {
         this.usuarioService.salvar(this.formulario.value).then(data => {
           this.listarTodos();
           this.fecharDialog();
-          this.messageService.add({severity:'success', summary: 'Successful', 
+          this.messageService.add({severity:'success', summary: 'Atenção', 
             detail: 'Usuário salvo', life: 3000});
         })
         .catch(error => {
@@ -110,7 +110,7 @@ export class UsuariosComponent implements OnInit {
         this.usuarioService.atualizar(this.formulario.value).then(data => {
           this.listarTodos();
           this.fecharDialog();
-          this.messageService.add({severity:'success', summary: 'Successful', 
+          this.messageService.add({severity:'success', summary: 'Atenção', 
             detail: 'Usuário atualizado', life: 3000});
         })
         .catch(error => {
