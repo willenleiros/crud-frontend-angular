@@ -15,6 +15,10 @@ de desenvolvimento.
 - Instalavr o Angular última versão estável;
 - Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
+# Guia do DEV
+
+Nesta sessão é disponibilizado alguns comandos úteis durante o desenvolvimento do projeto.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
