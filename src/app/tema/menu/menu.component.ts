@@ -18,23 +18,23 @@ export class MenuComponent implements OnInit {
         label: 'Sistema',
         icon:'pi pi-fw pi-file',
         items: [{
-          label: 'New',
+          label: 'Novo',
           icon: 'pi pi-fw pi-plus',
           items: [
-            {label: 'Project'},
-            {label: 'Other'},
+            {label: 'Projeto'},
+            {label: 'Outro'},
           ]
         },
-          {label: 'Open'},
-          {label: 'Quit'}
+          {label: 'Abrir'},
+          {label: 'Sair'}
         ]
       },
       {
-        label: 'Editar',
+        label: 'Arquivo',
         icon: 'pi pi-fw pi-pencil',
         items: [
-          {label: 'Delete', icon: 'pi pi-fw pi-trash'},
-          {label: 'Refresh', icon: 'pi pi-fw pi-refresh'}
+          {label: 'Apagar', icon: 'pi pi-fw pi-trash'},
+          {label: 'Atualizar', icon: 'pi pi-fw pi-refresh'}
         ]
       }
     ];
