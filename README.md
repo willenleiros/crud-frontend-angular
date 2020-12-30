@@ -4,7 +4,13 @@
 
 # Objetivo
 
-Projeto de frontend utlizando a linguagem de programação [TypeScript] (https://www.typescriptlang.org/), framework [Angular] (https://angular.io/) e bilbioteca de componentes [PrimeNg](https://www.primefaces.org/primeng/).
+Projeto de frontend utlizando a linguagem de programação [TypeScript](https://www.typescriptlang.org/), framework [Angular](https://angular.io/) e bilbioteca de componentes [PrimeNg](https://www.primefaces.org/primeng/).
+
+# Desafio da empresa ESIG
+
+- Atendimento ao **ITEM A** - Aplicação frontend com [Angular](https://angular.io/) versão mais recente [11.0.5](https://www.npmjs.com/package/@angular/cli/v/11.0.5);
+- Atendimento ao **ITEM E** - Utilizando testes unitários no frontend com Jasmine;
+- **Adicional** - Deploy da aplicação na nuvem utilizando o [Docker](https://www.docker.com/);
 
 # Primeiros Passos: configurando o projeto para desenvolvimento
 
@@ -12,7 +18,7 @@ Esta sessão especifica os passos necessários para que o desenvolvedor possa ex
 de desenvolvimento.
 
 - Instalar o Node última versão estável;
-- Instalavr o Angular última versão estável;
+- Instalar o Angular última versão estável;
 - Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 # Guia do DEV

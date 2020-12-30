@@ -20,16 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'teste-esig'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('teste-esig');
-  });
-
-  it('should render title', () => {
+  it('Renderizou o rodapé', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('teste-esig app is running!');
+    expect(compiled.querySelector('footer').textContent).toContain('&copy Willen Rodrigo de Leiros - Desenvolvedor Java (Web&Mobile)');
   });
 });
