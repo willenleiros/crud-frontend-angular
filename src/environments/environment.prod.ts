@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://104.131.187.117:8080',
+  apiUrl: 'http://crud.leiros.com.br:8080',
 };
